@@ -27,11 +27,11 @@ Repository structure:
 Repository structure
 
 model/
-- Data.jl — Model data (nodes/zones, lines, costs, limits, representative hours, etc.)
+- Data.jl — Model data (nodes/zones, connections, costs, representative hours, etc.)
 - ATC.jl — ATC model
 - DCPF.jl — DC power flow model
 - FBMC.jl — Flow-Based model
-- main.jl — Runs ATC, DCPF, FBMC
+- Main.jl — Runs ATC, DCPF, FBMC
 
 - profiles/
   - electricity_demand.csv — MWh per hour per node
