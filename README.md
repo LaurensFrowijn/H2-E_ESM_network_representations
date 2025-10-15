@@ -33,10 +33,10 @@ model/
 - FBMC.jl — Flow-Based model
 - main.jl — Runs ATC, DCPF, FBMC
 
--profiles/
--- electricity_demand.csv — MWh per hour per node
--- generation.csv — MWh per hour per node (capacities)
--- hydrogen_demand.csv — MWh (LHV) per hour per node
+- profiles/
+  - electricity_demand.csv — MWh per hour per node
+  - generation.csv — MWh per hour per node (capacities)
+  - hydrogen_demand.csv — MWh (LHV) per hour per node
 
 Contact / issues:
 Open a GitHub issue for questions or bug reports. For conceptual questions or interpretation, refer to and cite the paper alongside this model repository.
